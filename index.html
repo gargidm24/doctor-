@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCare - Doctor Website</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>+</span> MedCare
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+            </ul>
+
+            <a href="#appointment" class="nav-btn">Book Appointment</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO MEDCARE</p>
+
+            <h1>Your Health Is Our <span>Priority</span></h1>
+
+            <p>
+                Professional healthcare services with experienced doctors
+                dedicated to keeping you healthy and happy.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#appointment" class="primary-btn">Book Appointment</a>
+                <a href="#services" class="secondary-btn">Our Services</a>
+            </div>
+        </div>
+
+        <div class="doctor-card">
+            <div class="doctor-icon">👨‍⚕️</div>
+            <h3>Expert Doctors</h3>
+            <p>Professional and caring medical specialists.</p>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <div class="medical-box">
+                ❤️
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="section-title">ABOUT US</p>
+            <h2>We Care About Your Health</h2>
+
+            <p>
+                MedCare is a modern healthcare center providing quality
+                medical services for patients of all ages.
+            </p>
+
+            <p>
+                Our experienced medical professionals use modern technology
+                and personalized treatment plans to provide excellent care.
+            </p>
+
+            <div class="features">
+                <div>✓ Experienced Doctors</div>
+                <div>✓ Modern Equipment</div>
+                <div>✓ 24/7 Support</div>
+                <div>✓ Affordable Treatment</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="section-heading">
+            <p class="section-title">OUR SERVICES</p>
+            <h2>Healthcare Services</h2>
+            <p>We provide a wide range of medical services.</p>
+        </div>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <div class="service-icon">🩺</div>
+                <h3>General Checkup</h3>
+                <p>
+                    Regular health examinations to help maintain
+                    your overall health.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">❤️</div>
+                <h3>Cardiology</h3>
+                <p>
+                    Professional heart care and cardiovascular
+                    health services.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🦷</div>
+                <h3>Dental Care</h3>
+                <p>
+                    Complete dental care and treatments for
+                    healthy teeth.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🧠</div>
+                <h3>Neurology</h3>
+                <p>
+                    Specialized care for neurological conditions
+                    and disorders.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Doctors -->
+    <section class="doctors" id="doctors">
+        <div class="section-heading">
+            <p class="section-title">OUR TEAM</p>
+            <h2>Meet Our Doctors</h2>
+            <p>Experienced professionals ready to care for you.</p>
+        </div>
+
+        <div class="doctor-container">
+
+            <div class="doctor-profile">
+                <div class="profile-img">👨‍⚕️</div>
+                <h3>Dr. John Smith</h3>
+                <p>Cardiologist</p>
+                <span>10+ Years Experience</span>
+            </div>
+
+            <div class="doctor-profile">
+                <div class="profile-img">👩‍⚕️</div>
+                <h3>Dr. Emily Brown</h3>
+                <p>Neurologist</p>
+                <span>8+ Years Experience</span>
+            </div>
+
+            <div class="doctor-profile">
+                <div class="profile-img">👨‍⚕️</div>
+                <h3>Dr. Michael Lee</h3>
+                <p>General Physician</p>
+                <span>12+ Years Experience</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Appointment -->
+    <section class="appointment" id="appointment">
+
+        <div class="appointment-info">
+            <p class="section-title">APPOINTMENT</p>
+            <h2>Book Your Appointment</h2>
+
+            <p>
+                Schedule an appointment with one of our experienced
+                doctors. Fill out the form and our team will contact you.
+            </p>
+
+            <div class="contact-info">
+                <p>📞 +1 234 567 890</p>
+                <p>✉️ contact@medcare.com</p>
+                <p>📍 123 Health Street, Medical City</p>
+            </div>
+        </div>
+
+        <form class="appointment-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Department</option>
+                <option>General Checkup</option>
+                <option>Cardiology</option>
+                <option>Dental Care</option>
+                <option>Neurology</option>
+            </select>
+
+            <input type="date" required>
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+
+            <div>
+                <div class="logo">
+                    <span>+</span> MedCare
+                </div>
+                <p>
+                    Quality healthcare with compassion and care.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#appointment">Appointment</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>📞 +1 234 567 890</p>
+                <p>✉️ contact@medcare.com</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 MedCare. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
